@@ -1,0 +1,9 @@
+dist: trusty
+sudo: required
+language: bash
+before_install:
+- curl https://raw.githubusercontent.com/express42/otus-homeworks/2018-05/run.sh |bash
+ notifications:
+  slack:
+    rooms:
+      - devops-team-otus:I3BXh2rQAWBIgF1VsK4rvTO3#alexandr_orel
